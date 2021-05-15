@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/05/15/1b1643e0130a/</url>
+    <title>Hexo配置</title>
+    <url>/2021/05/16/124b790606a0/</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ol>
 <li>Hexo是一个Node应用，Hexo通过Node的各种库，将.md文件生成静态网站。</li>
 <li>gitHub支持静态文件页面展示，因此Hexo生成的静态文件可以直接放到github中</li>
@@ -25,7 +25,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
 
 <p>./themes/next/_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">	enable: true</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure>
 
 <h3 id="置顶"><a href="#置顶" class="headerlink" title="置顶"></a>置顶</h3><p>./source/post/xx.md</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top: 1 // 数字越大越靠前</span><br></pre></td></tr></table></figure>
